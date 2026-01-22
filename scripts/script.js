@@ -94,7 +94,10 @@ function showBanner(){
 
   acceptBtn.addEventListener("click", () => applyConsent("accepted"));
   declineBtn.addEventListener("click", () => applyConsent("declined"));
+ 
+   
 
+document.getElementById("year").textContent = new Date().getFullYear();
 
 
 
