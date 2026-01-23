@@ -8,13 +8,13 @@
   <meta name="description" content="Über mich – Prokop Web. Webdesign & SEO in der Schweiz." />
   <meta name="robots" content="index,follow" />
 
-  <link rel="canonical" href="https://prokop-web.ch/about.html" />
+  <link rel="canonical" href="https://prokop-web.ch/Über mich.html" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Über mich | Prokop Web" />
   <meta property="og:description" content="Webdesign & SEO in der Schweiz. Kurze Vorstellung." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://prokop-web.ch/about.html" />
+  <meta property="og:url" content="https://prokop-web.ch/Über mich.html" />
 
   <link rel="stylesheet" href="styles/style.css" />
 </head>
@@ -23,7 +23,7 @@
   <header class="site-header">
     <nav class="nav">
       <a href="index.html">Start</a>
-      <a href="about.html" aria-current="page">Über mich</a>
+      <a href="Über mich.html" aria-current="page">Über mich</a>
       <a href="impressum.html">Impressum</a>
       <a href="privacy.html">Datenschutz</a>
     </nav>
