@@ -295,6 +295,10 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+  
+}
+.services-grid{
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .about-card,
@@ -306,7 +310,7 @@ a {
   border: 1px solid var(--line);
   box-shadow: 0 16px 30px rgba(23, 21, 18, 0.08);
 }
-
+/*
 .service-card .tag {
   display: inline-block;
   margin-top: 16px;
@@ -315,6 +319,7 @@ a {
   background: rgba(23, 21, 18, 0.08);
   font-size: 13px;
 }
+*/
 
 .work-thumb {
   height: 160px;
