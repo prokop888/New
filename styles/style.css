@@ -297,9 +297,7 @@ a {
   gap: 20px;
   
 }
-.services-grid{
-  grid-template-columns: repeat(3, 1fr);
-}
+
 
 .about-card,
 .service-card,
