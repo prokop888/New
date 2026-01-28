@@ -95,7 +95,7 @@ a {
   display: flex;
   align-items: center;
 }
-
+/*
 .nav__list {
   list-style: none;
   display: flex;
@@ -112,7 +112,7 @@ a {
 .nav__link:hover {
   color: var(--ink);
 }
-
+*/
 .hero {
   position: relative;
   z-index: 1;
