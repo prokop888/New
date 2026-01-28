@@ -169,14 +169,14 @@ a {
   color: var(--muted);
   margin-bottom: 16px;
 }
-
+/*
 .lead {
   font-size: 18px;
   color: var(--muted);
   margin-bottom: 24px;
   max-width: 520px;
 }
-
+*/
 .cta {
   display: flex;
   gap: 12px;
