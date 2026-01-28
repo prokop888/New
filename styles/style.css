@@ -340,21 +340,45 @@ a {
   margin: 60px auto;
   padding: 20px;
 }
+/* Центрируем всю секцию и делаем рамку вокруг */
+#faq {
+  max-width: 900px;
+  margin: 60px auto;        /* центр по странице */
+  padding: 24px;
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.03);
+}
 
+/* Заголовок */
+#faq h2 {
+  margin: 0 0 16px 0;
+}
+
+/* Вопросы внутри — отдельные блоки */
 #faq details {
-  border-bottom: 1px solid #ddd;
-  padding: 10px 0;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  padding: 14px 0;
 }
 
+/* чтобы первая линия не была сверху у первого элемента */
+#faq details:first-of-type {
+  border-top: none;
+}
+
+/* summary кликабельный */
 #faq summary {
-  font-weight: 600;
   cursor: pointer;
+  font-weight: 600;
 }
 
+/* Отступ текста ответа */
 #faq p {
   margin: 10px 0 0 0;
-  color: #444;
+  line-height: 1.5;
+  opacity: 0.9;
 }
+
 
 
 
