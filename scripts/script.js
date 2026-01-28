@@ -40,6 +40,14 @@ const revealOnScroll = () => {
     }
   });
 };
+document.querySelectorAll("#faq details").forEach((detail) => {
+  detail.addEventListener("click", function () {
+    document.querySelectorAll("#faq details").forEach((el) => {
+      if (el !== detail) el.removeAttribute("open");
+    });
+  });
+});
+
 
 window.addEventListener('load', () => {
   setTimeout(revealOnScroll, 150);
