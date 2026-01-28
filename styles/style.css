@@ -335,6 +335,27 @@ a {
 
 .gradient-c {
   background: linear-gradient(135deg, #dde7f0, #a8bfd2);
+  #faq {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+#faq details {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+#faq summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#faq p {
+  margin: 10px 0 0 0;
+  color: #444;
+}
+
 }
 
 .contact-card {
