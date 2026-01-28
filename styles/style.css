@@ -131,23 +131,23 @@ a {
   box-shadow: 0 10px 24px rgba(58, 111, 108, 0.25);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
+/*
 .btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(58, 111, 108, 0.35);
 }
-
+*/
 .btn-ghost {
   background: transparent;
   color: var(--ink);
   border: 1px solid var(--line);
   box-shadow: none;
 }
-
+/*
 .btn-ghost:hover {
   border-color: var(--ink);
 }
-
+*/
 .hero-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
