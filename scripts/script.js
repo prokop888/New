@@ -1,3 +1,4 @@
+
 // -------------------- Burger menu --------------------
 const burgerButton = document.querySelector('[data-burger]');
 const nav = document.querySelector('[data-nav]');
@@ -67,12 +68,14 @@ const declineBtn = document.getElementById("cookie-decline");
 
 function hideBanner() {
   if (!banner) return;
-  banner.style.display = "none";
+  banner.classList.remove("is-visible");
+  banner.setAttribute("aria-hidden", "true");
 }
 
 function showBanner() {
   if (!banner) return;
-  banner.style.display = "flex";
+  banner.classList.add("is-visible");
+  banner.setAttribute("aria-hidden", "false");
 }
 
 function loadGA4() {
